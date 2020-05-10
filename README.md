@@ -26,3 +26,21 @@ Once you have your linear regression equation, you should use your linear regres
 
 Step 3: Writeup
 Once you have your predicted or expected profit, write a brief report with your recommendation to whether the company should send the catalog or not.
+
+# Data
+p1-customers.xlsx - This dataset includes the following information on about 2,300 customers. 
+Important: We have to build our model on this dataset and not p1-mailinglist.xlsx.
+
+p1-mailinglist.xlsx - This dataset is the 250 customers that you need to predict sales. This is the list of customers that the company would send a catalog to. Use this dataset to estimate how much revenue the company can expect if they send out the catalog. It includes all of the fields from P1_Customers.xlsx except for Responded_to_Last_Catalog so this variable cannot be used in the linear regression model since it could not be applied to the mailing list data set. It also includes two additional variables.
+
+Score_No: The probability that the customer WILL NOT respond to the catalog and not make a purchase.
+Score_Yes: The probability that the customer WILL respond to the catalog and make a purchase.
+
+# Suggestions
+When you are thinking about what decisions need to be made and what data is needed consider the following:
+What is the company ultimately trying to make a decision on? 
+What is the criteria that will let them know what they should decide? 
+How will we predict the potential profit of sending out the catalog? 
+Considering the data we have, what pieces of it may be useful in coming up with this prediction?
+
+Low P-values and a high R-squared suggest the model is highly predictive, Low P-values means it is highly unlikely that the two variables are not related. Low R squared means the model is not very fit.
